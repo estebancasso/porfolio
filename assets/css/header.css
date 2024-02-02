@@ -128,8 +128,9 @@
     }
 
     .orb {
-        width: 80vh;
-        height: 80vh;
+        width: 27vh;
+        height: 27vh;
+        margin-top: 28vh;
     }
 
     .div--contact {
