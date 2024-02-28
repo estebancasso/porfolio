@@ -43,7 +43,8 @@
     align-items: center;
     column-gap: 0.8rem;
     transition: backgraund-color 0.3s ease-in-out, color 0.3s ease-in-out;
-
+    box-shadow: var(--shadow);
+    
     &:hover {
         cursor: pointer;
         background-color: var(--text);

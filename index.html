@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
 
     <meta name="author" content="Johan Casso" />
     <meta
@@ -41,7 +42,9 @@
       <div class="nav--menu transalate--menu">
         <ul class="nav__ul">
           <li class="nav__li">
-            <span id="toggleModeBtn" class="material-symbols-outlined"> light_mode </span>
+            <span id="toggleModeBtn" class="material-symbols-outlined">
+              light_mode
+            </span>
           </li>
         </ul>
         <ul class="nav__ul">
@@ -64,12 +67,12 @@
       </div>
     </nav>
 
-    <header class="header">
-      <h1 class="header__h1">Esteban Casso</h1>
+    <header id="home" class="header">
+      <h1 class="header__h1">Johan Esteban Casso Casso</h1>
       <h2 class="header__h2">Desarrollador web Frontend</h2>
 
       <div class="div--contact">
-        <a href="#" class="div__a">
+        <a href="#contactMe" class="div__a">
           Contactame
           <span class="material-symbols-outlined"> chevron_right </span>
         </a>
@@ -80,11 +83,282 @@
           >Descargar
         </a>
       </div>
-      <div class="orb"></div>
+      <!-- <div class="orb"></div> -->
     </header>
+
+    <main>
+      <section id="aboutMe" class="section about">
+        <h2 class="section__title">Sobre Mí</h2>
+        <div class="container">
+          <p class="about__text">
+            Desarrollador web, con grandes cualidades, responsabilidad y
+            compromiso con capacidad para desarrollar páginas web elegantes. En
+            búsqueda de crecimiento personal y profesional. Me fascinan los
+            frameworks de frontend como React, tengo un gran interés en el
+            diseño de UI. <br />
+            ¡Bienvenidos a mi portafolio un reflejo de mi profesión!
+          </p>
+        </div>
+      </section>
+
+      <section id="technologies" class="section skills">
+        <h2 class="section__title">Habilidades</h2>
+        <div class="container">
+          <div class="skills__content">
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/vsc.svg"
+                  height="50"
+                  width="50"
+                  alt="vsc"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">VsCode</h3>
+              <p class="skills__text">Herramientas</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/html.svg"
+                  height="50"
+                  width="50"
+                  alt="html"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">HTML</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/css.svg"
+                  height="50"
+                  width="50"
+                  alt="css"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">CSS</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/javascript.svg"
+                  height="50"
+                  width="50"
+                  alt="javascript"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">JavaScript</h3>
+              <p class="skills__text">Lenguaje</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/git.svg"
+                  height="50"
+                  width="50"
+                  alt="git"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Git</h3>
+              <p class="skills__text">Desarrollo</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/react.svg"
+                  height="50"
+                  width="50"
+                  alt="react"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">React</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/tailwind.svg"
+                  height="50"
+                  width="50"
+                  alt="tailwind"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Talwind</h3>
+              <p class="skills__text">Frontend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/nodejs.svg"
+                  height="50"
+                  width="50"
+                  alt="node"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Node.js</h3>
+              <p class="skills__text">Backend</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/postgres.svg"
+                  height="50"
+                  width="50"
+                  alt="postgres"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">Postgres</h3>
+              <p class="skills__text">Base de Datos</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img">
+                <img
+                  src="assets/img/iconos/github.svg"
+                  height="50"
+                  width="50"
+                  alt="github"
+                />
+              </div>
+              <h3 class="skills__text skills__text-name">GitHub</h3>
+              <p class="skills__text">Desarrollo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyect" class="section portfolio">
+        <h2 class="section__title">Proyectos</h2>
+        <div class="container">
+          <div class="porfolio__content">
+            <div class="porfolio__carousel">
+              <div class="porfolio__carruseles" id="slider">
+                <section class="slider-section">
+                  <img src="./assets/img/proyects/Pokedex.png" alt="pokedex" />
+                </section>
+                <section class="slider-section">
+                  <img
+                    src="./assets/img/proyects/Usuarios.png"
+                    alt="usuarios_crud"
+                  />
+                </section>
+                <section class="slider-section">
+                  <img
+                    src="./assets/img/proyects/Rick_Morty.png"
+                    alt="rick_morty"
+                  />
+                </section>
+              </div>
+              <div class="btn-left">
+                <span class="material-symbols-outlined">
+                  arrow_back_ios
+                </span>
+              </div>
+              <div class="btn-rigth">
+                <span class="material-symbols-outlined">
+                  arrow_forward_ios
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="portfolio__content">
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <a href="https://entregable5-seven.vercel.app/" target="_blank">
+                  <img src="./assets/img/proyects/Pokedex.png" alt="" />
+                </a>
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Pokedex</h3>
+                <p class="portfolio__text">
+                  Aplicación web que permite realizar búsquedas de Pokémon por
+                  nombre y tipo y a su vez ver el detalle del Pokémon.
+                </p>
+                <a
+                  href="https://entregable5-seven.vercel.app/" target="_blank"
+                  class="portfolio__link"
+                  >Ver más</a
+                >
+              </div>
+            </article>
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <a href="https://entregable4-seven.vercel.app/" target="_blank"> 
+                  <img src="./assets/img/proyects/Usuarios.png" alt="" />
+                </a>
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">CRUD Usuarios</h3>
+                <p class="portfolio__text">
+                  Aplicación que te permite administrar usuarios a través de un
+                  CRUD.
+                </p>
+                <a
+                  href="https://entregable4-seven.vercel.app/" target="_blank"
+                  class="portfolio__link"
+                >
+                  Ver Más</a
+                >
+              </div>
+            </article>
+            <article class="portfolio__item">
+              <div class="portfolio__img-content">
+                <a href="https://entregable3-one.vercel.app/" target="_blank">
+                  <img src="./assets/img/proyects/Rick_Morty.png" alt="" />
+                </a>
+              </div>
+              <div class="portfolio__body">
+                <h3 class="portfolio__name">Rick and Morty</h3>
+                <p class="portfolio__text">
+                  Aplicación donde el usuario pueda ver información sobre las
+                  ubicaciones (locations) del universo de “Rick and Morty”.
+                </p>
+                <a href="https://entregable3-one.vercel.app/" target="_blank" class="portfolio__link"> Ver Más</a>
+              </div>
+            </article>
+          </div> -->
+        </div>
+      </section>
+
+      <section id="contactMe" class="section contact">
+        <h2 class="section__title">Contacto</h2>
+        <div class="container">
+          <form id="form" class="contact__form">
+            <div class="label__input">
+              <label for="name"><i class="bx bxs-user"></i></label>
+              <input type="text" id="name" placeholder="Nombre" name="name" />
+            </div>
+
+            <div class="label__input">
+              <label for="email"><i class="bx bx-at"></i></label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Correo"
+                name="email"
+              />
+            </div>
+
+            <div>
+              <label for="message">Mensaje</label> <br />
+              <textarea name="message" id="message" rows="10"></textarea>
+            </div>
+
+            <button class="contact__btn" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copy">&copy; 2023</p>
+    </footer>
 
     <!-- Scripts -->
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/chamgeMode.js"></script>
+    <script src="./assets/js/slider.js"></script>
   </body>
 </html>
