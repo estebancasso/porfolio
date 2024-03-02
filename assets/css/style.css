@@ -17,10 +17,10 @@
 }
 
 .body--light {
-  --bg: #d9f4ff;
-  --bg-secundary: #c5e1f2;
-  --text: #0f0d13;
-  --text-secundary: #09428d;
+  --bg: #cefdf0;
+  --bg-secundary: #f2ffb0;
+  --text: #0d0d0c;
+  --text-secundary: #3e0466;
 
   --orb1: #e046fe;
   --orb2: #3036e1;
@@ -31,17 +31,16 @@
 }
 
 .body--dark {
-  --bg: #012220;
-  --bg-secundary: #0d0d304f;
-  --text: #fdfbf6;
-  --text-secundary: #dff95a;
+  --bg: #08011a;
+  --bg-secundary: #010e1a;
+  --text: #fffaed;
+  --text-secundary: #ffdc94;
 
   --orb1: #d400fc;
   --orb2: #0007fd;
 
-  --shadow: rgba(193, 168, 183, 0.4) -5px 5px,
-    rgba(193, 168, 183, 0.3) -10px 10px, rgba(193, 168, 183, 0.2) -15px 15px,
-    rgba(193, 168, 183, 0.1) -20px 20px, rgba(193, 168, 183, 0.05) -25px 25px;
+  --shadow: rgba(193, 168, 183, 0.3) -5px 5px,
+    rgba(193, 168, 183, 0.2) -10px 10px, rgba(193, 168, 183, 0.1) -15px 15px;
 }
 
 .body {

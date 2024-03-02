@@ -8,7 +8,7 @@
   align-items: center;
   padding: 1.5rem 2rem;
   z-index: 100;
-  backdrop-filter: blur(15px);
+  background-color: var(--bg);
 }
 
 .nav--menu {
@@ -52,7 +52,7 @@
 @media (max-width:950px) {
 
   .nav {
-    backdrop-filter: none;
+    /* backdrop-filter: none; */
     padding: 2rem 1rem;
   }
  
@@ -68,7 +68,7 @@
     height: auto;
     top: 60px;
     flex-direction: column;
-    backdrop-filter: blur(15px);
+    background-color: var(--bg);
     justify-content: flex-start;
     align-items: flex-end;
     right: 0;
