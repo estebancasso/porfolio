@@ -78,6 +78,7 @@
 .portfolio__item {
   background-color: var(--bg-secundary);
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .portfolio__img-content {
@@ -111,6 +112,44 @@
   color: var(--text-secundary);
 }
 
+/* Contact */
+.contact .section__title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: var(--text-bold);
+}
+
+.contact__options {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 3;
+  background-color: var(--bg-secundary);
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  color: var(--text);
+  width: 150px;
+  height: 150px;
+}
+
+.contact__item i {
+  font-size: 3rem;
+  color: var(--text);
+}
+
+.contact__item span {
+  display: block;
+}
+
 @media (max-width: 550px) {
   .about__text {
     font-size: 1.1rem;
@@ -119,16 +158,16 @@
   }
 
   .skills__item .skills__text {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .skills__item .skills__text-name {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: var(--text-bold);
   }
 
   .portfolio .container {
-    max-width: 400px;
+    max-width: 390px;
   }
 
   .portfolio__img-content {
@@ -144,14 +183,12 @@
     font-weight: var(--text-bold);
   }
 
-  .portfolio__text{
+  .portfolio__text {
     font-size: 1rem;
     line-height: 1.6;
   }
 
   .portfolio__link {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-  
-  
 }
