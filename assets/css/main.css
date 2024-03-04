@@ -6,8 +6,9 @@
 }
 
 .about__text {
-  font-size: 1.3rem;
-  line-height: 1.4;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
 }
 
 /* Skills */
@@ -134,7 +135,7 @@
   text-decoration: none;
   gap: 3;
   background-color: var(--bg-secundary);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
   color: var(--text);
   width: 150px;
@@ -150,13 +151,60 @@
   display: block;
 }
 
-@media (max-width: 550px) {
-  .about__text {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    text-align: center;
+.btn {
+  position: fixed;
+  bottom: 0;
+  right: 2rem;
+  top: 33rem;
+}
+
+.btn-whatsapp {
+  position: relative;
+}
+
+.btn-whatsapp:before,
+.btn-whatsapp:after {
+  content: "";
+  position: absolute;
+  top: 2;
+  left: 4px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #00e676;
+  opacity: 0;
+  animation: onda 1.7s infinite;
+}
+
+.btn-whatsapp:before {
+  animation-delay: 1s;
+}
+
+.btn-whatsapp:after {
+  animation-delay: 1.3s;
+}
+
+.btn-whatsapp img {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes onda {
+  0% {
+    transform: scale(1);
   }
 
+  15% {
+    opacity: 1;
+  }
+   100% {
+    opacity: 0;
+    transform: scale(2.5);
+   }
+}
+
+@media (max-width: 550px) {
+  /* habilidades */
   .skills__item .skills__text {
     font-size: 0.7rem;
   }
@@ -165,7 +213,7 @@
     font-size: 0.9rem;
     font-weight: var(--text-bold);
   }
-
+  /* proyectos */
   .portfolio .container {
     max-width: 390px;
   }
@@ -190,5 +238,30 @@
 
   .portfolio__link {
     font-size: 0.9rem;
+  }
+  /* contact */
+  .contact__item {
+    width: 120px;
+    height: 120px;
+  }
+
+  .contact__item i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* habilidades */
+  .skills__item .skills__text {
+    font-size: 0.8rem;
+  }
+
+  .skills__item .skills__text-name {
+    font-size: 1rem;
+    font-weight: var(--text-bold);
+  }
+  /* proyectos */
+  .portfolio__img-content {
+    height: 205px;
   }
 }
