@@ -87,7 +87,7 @@
 /* Utils */
 
 .section {
-  padding: 60px 0;
+  padding: 2rem .5rem;
 }
 
 .section__title {

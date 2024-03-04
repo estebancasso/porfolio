@@ -132,25 +132,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
   gap: 3;
   background-color: var(--bg-secundary);
   padding: 0.5rem 1rem;
   border-radius: 8px;
+  text-decoration: none;
   color: var(--text);
   width: 150px;
   height: 150px;
 }
 
+.contact__item:hover {
+  /* background: var(--color); */
+  color: var(--color);
+  box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
+}
+
 .contact__item i {
   font-size: 3rem;
-  color: var(--text);
 }
 
 .contact__item span {
   display: block;
+  color: var(--text);
 }
 
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  background-color: var(--bg-secundary);
+}
+
+.footer__text {
+  font-size: 1.1rem;
+  font-weight: var(--text-semibol);
+}
+
+
+/* btn-whtasapp */
 .btn {
   position: fixed;
   bottom: 0;
@@ -203,6 +228,7 @@
    }
 }
 
+/* Media moviles */
 @media (max-width: 550px) {
   /* habilidades */
   .skills__item .skills__text {
@@ -248,8 +274,13 @@
   .contact__item i {
     font-size: 2.5rem;
   }
+  /* footer */
+  .footer__text {
+    font-size: .9rem;
+  }
 }
 
+/* Media tablest  */
 @media (max-width: 1024px) {
   /* habilidades */
   .skills__item .skills__text {
