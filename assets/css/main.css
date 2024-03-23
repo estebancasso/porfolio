@@ -18,6 +18,12 @@
   font-weight: var(--text-bold);
 }
 
+.kills__text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 .skills__content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
